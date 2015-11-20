@@ -1,20 +1,22 @@
-**TDD with angular
+##TDD with angular
 
-How to:
+# How to: install Karma
 
-install Karma
+* Install Carma globally `$ npm install karma -g`
+* Check whether karma was installed `$ karma -–version`
+* `$ karma init`
 
-`$ npm install karma -g`
-`$ karma -–version`
-`$ karma init`
+* Install dependencies for testing Carma with Jasmine and Chrome:
+`$ npm install karma-jasmine -g`
+`$ npm install karma-chrome-launcher -g`
 
-$ npm install karma-jasmine -g
-$ npm install karma-chrome-launcher -g
+#Installing Angular
 
+* `$ npm install bower -g`
+* `$ bower init`
+* `$ bower install angular`
+* `$ bower install angular-mocks`
 
-$ npm install bower -g
-$ bower init
+#How to start Carma
 
-**Installing Angular
-
-$ bower install angular
+`$ karma start`
